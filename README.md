@@ -2,6 +2,19 @@
 
 Utils is a java utility library that contains partition() method to partition list into sub-lists with maximum number of elemets.
 
+## Installation
+
+Import the dependency into the project 
+
+```java
+<dependency>
+     <groupId>com.adneom.utils</groupId>
+     <artifactId>utils</artifactId>
+     <version>1.0</version>
+</dependency>
+```
+
+
 ## Usage
 
 
