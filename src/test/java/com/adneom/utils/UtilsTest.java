@@ -23,13 +23,18 @@ public class UtilsTest {
         assertEquals(1, partition.get(4).size());
     }
 
-
     @Test
     public void partition_positive_scenario_2() {
         List<List<Integer>> partition = Utils.partition(Arrays.asList(0, 1, 2, 3, 4, 5, 6, 7), 4);
         assertNotNull(partition);
         assertEquals(2, partition.size());
         assertEquals(4, partition.get(1).size());
+    }
+
+    @Test
+    public void partition_positive_scenario_3() {
+        List<List<String>> partition = Utils.partition(Arrays.asList("AA", "BB", "CC"), 2);
+        assertNotNull(partition);
     }
 
     @Test(expected = NullPointerException.class)
